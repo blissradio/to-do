@@ -21,9 +21,10 @@ input, select, button, textarea {
 }
 
 input[type="text"], textarea {
-  padding: .25rem;
-  border-radius: .25rem;
-  border: 2px solid var(--text-color);
+  padding: 10px;
+  border-radius: 8px;
+  border: 0px;
+  background: #f4f3f6;
 }
 
 input[type="checkbox"] {
