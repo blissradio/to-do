@@ -3,7 +3,6 @@
   "short_name": "Clodo",
   "description": "Clodo is a simple to do list application that lets you create lists of tasks locally in your browser, or by installing the app.",
   "start_url": "/to-do/",
-  "id": "/to-do/",
   "launch_handler": {
     "client_mode": "auto"
 },
