@@ -7,9 +7,13 @@
     <title>Clodo</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="app.css" />
-<script>window.onscroll = function () {
-window.scrollTo(0,0);
-}</script>
+<script>
+window.onload = function lockA () {
+  var xPos = window.scrollX;
+  var yPos = window.scrollY;
+  window.onscroll = () => window.scroll(xPos, yPos);
+}
+</script>
   </head>
   <body>
     <header>
