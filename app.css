@@ -47,6 +47,7 @@ body {
     "header header"
     "sidebar main";
   overflow: hidden;
+  touch-action: none;
 }
 
 @media (max-width: 500px) {
