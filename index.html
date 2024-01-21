@@ -11,11 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <body>
     <header>
       <h1><img src="logo2.png" width="24px" height="24px">Clodo
-        <a href="learn-more">About</a>
+        <a href="learn-more"><span class="material-symbols-outlined">
+settings
+</span></a>
       </h1>
       <form class="search-form" title="search tasks">
         <input type="text" id="search-query" placeholder="Search tasks"/>
@@ -216,8 +219,8 @@
     </form>
     <dialog class="learn-more-dialog" style="border: 0px;border-radius: 20px;">
       <p><strong>Clodo</strong> is a simple to do list application that lets you create lists of tasks locally in your browser, or by installing the app.</p>
-      <p>This application serves as a browser storage demo for applications that need to store user data locally and query it in interesting ways. This application uses the <a href="https://sqlite.org/wasm/">WebAssembly build of SQLite3</a> and Origin-Private File System (OPFS) API.</p>
-      <p>Check-out the code on our <a href="https://github.com/MicrosoftEdge/Demos/tree/main/pwa-to-do">GitHub repository</a>.</p>
+      <p>This application uses the <a href="https://sqlite.org/wasm/">WebAssembly build of SQLite3</a> and Origin-Private File System (OPFS) API for storage.</p>
+      <p>This project is based on Microsoft's <a href="https://github.com/MicrosoftEdge/Demos/tree/main/pwa-to-do">GitHub repository</a>.</p>
       <form action="dialog" id="db-import-export-form">
         <!-- <label for="db-import-file">Import database</label>
         <input type="file" id="db-import-file" /> -->

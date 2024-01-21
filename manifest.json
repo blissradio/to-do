@@ -1,7 +1,7 @@
 {
   "name": "Clodo",
   "short_name": "Clodo",
-  "description": "Make lists of things to do.",
+  "description": "Clodo is a simple to do list application that lets you create lists of tasks locally in your browser, or by installing the app.",
   "start_url": "/to-do/",
   "id": "/to-do/",
   "launch_handler": {
@@ -89,8 +89,9 @@
   "orientation": "any",
   "shortcuts": [
     {
-      "name": "About",
-      "url": "https://blissradio.github.io/to-do/learn-more",
+      "name": "To-do lists",
+      "short_name": "Lists",
+      "url": "https://blissradio.github.io/to-do/",
       "description": "Info about Clodo.",
       "icons": [{ "src": "https://blissradio.github.io/to-do/favicon.ico", "sizes": "256x256" }]
     }
