@@ -15,6 +15,7 @@ html {
   font-size: 1em;
   margin: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 input, select, button, textarea {
@@ -49,6 +50,10 @@ body {
   overflow: hidden;
   touch-action: none;
 }
+
+[aria-hidden="true"] { 
+            display: none; 
+        } 
 
 @media (max-width: 500px) {
   body {
